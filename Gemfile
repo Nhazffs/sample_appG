@@ -11,6 +11,10 @@ group :development, :test do
   gem 'webrat', '0.7.3'
 end
 
+gem 'shoulda-matchers', '2.8.0'
+gem 'ZenTest'
+gem 'autotest-rails'
+
 gem 'therubyracer',  platforms: :ruby
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
